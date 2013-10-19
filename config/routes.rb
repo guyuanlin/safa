@@ -1,4 +1,6 @@
 Safa::Application.routes.draw do
+  resources :stores
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -54,6 +56,7 @@ Safa::Application.routes.draw do
   #     resources :products
   #   end
 
-  get "safa" => "safa#index"
+  # Set the home page to safa#index
+  root :to  => "safa#index"
 
 end
