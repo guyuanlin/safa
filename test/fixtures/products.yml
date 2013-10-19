@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  color: MyString
+  size: MyString
+  price: 1
+  serial_num_1: MyString
+  serial_num_2: MyString
+  store: MyString
+  count: 1
+
+two:
+  name: MyString
+  color: MyString
+  size: MyString
+  price: 1
+  serial_num_1: MyString
+  serial_num_2: MyString
+  store: MyString
+  count: 1
